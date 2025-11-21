@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio simples</title>
+  <meta name="description" content="Portfólio de Isaías" />
+  <link rel="stylesheet" href="/public/port.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar"><img src="/public/images/avatar.jpg" alt="me"></div>
+        <div>
+          <h1><span class="name">Isaías</span>
+          </h1>
+          <p class="lead">Em busca de aprimorar minhas habilidades</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-left">
+        <section id="about" class="card">
+          <h2>Sobre mim</h2>
+          <p class="about-text">Me formei em Análise e Desenvolvimento de Sistemas pelo SENAI e, embora minha principal especialização esteja voltada para o desenvolvimento Front-End, busco ampliar minhas competências técnicas. Participei de uma competição voltada à solução de um desafio proposto pela Pirelli e também integrei o último hackathon promovido pelo SENAI, no qual desenvolvi, junto à equipe, uma solução para o SAMU, conquistando o prêmio de primeiro lugar.</p>
+        </section>
+
+        <section id="projects" class="card projects">
+          <h2>Projetos</h2>
+
+          <article class="project">
+            <div class="thumb">SC</div>
+            <div class="project-body">
+              <h3>ScannerOral</h3>
+              <p>Uma API que realiza o escaneamento oral que identifica doenças bucais no paciente</p>
+              <div class="badges">
+                <span class="badge">Python</span>
+                <span class="badge">Java</span>
+              </div>
+              <div class="links">
+                <a href=" http://38.242.202.155:2000">Link para o projeto</a>
+              </div>
+            </div>
+          </article>
+
+
+            <article class="project">
+            <div class="thumb">CO</div>
+            <div class="project-body">
+              <h3>Cardapio online</h3>
+              <p>Um site de um restaurante ficticio</p>
+              <div class="badges">
+                <span class="badge">EJS</span>
+                <span class="badge">Javascript</span>
+              </div>
+              <div class="links">
+                <a href="https://github.com/isaipers/Card-pio.git">Link para o projeto</a>
+              </div>
+            </div>
+          </article>
+
+        </section>
+
+        <section id="experience" class="card">
+          <h2>Educação / Cursos</h2>
+          <p class="muted">Análise e Desenvolvimento de Sistemas - SENAI (2023 - 2025)</p>
+          <ul class="course-list">
+            <li>Defesa de Redes — Cisco — 27h</li>
+            <li>Cultura e Métodos Ágeis — Alura — 8h</li>
+            <li>Kanban — Alura — 8h</li>
+            <li>Metodologia Ágil Scrum — Alura — 8h</li>
+            <li>Ferramentas para agilidade — Alura — 8h</li>
+            <li>Viabilidade de Projetos & Negócios — Alura — 6h</li>
+            <li>Reengenharia e qualidade — Alura — 6h</li>
+          </ul>
+        </section>
+
+      </div>
+
+      <aside class="sidebar">
+        <div class="card section">
+          <h2 id="skills">Habilidades</h2>
+          <div class="skill"><strong>HTML, CSS e Javascript</strong>
+            <div class="bar" title="80%"><i style="width:80%"></i></div>
+          </div>
+          <div class="skill"><strong>SQL</strong>
+            <div class="bar" title="50%"><i style="width:50%"></i></div>
+          </div>
+          <div class="skill"><strong>Git e GitHub</strong>
+            <div class="bar" title="80%"><i style="width:80%"></i></div>
+          </div>
+        </div>
+
+        <div class="card section contact" id="contact">
+          <h2>Contato</h2>
+          <p class="muted">Email: <a href="#">isaiassperes27@gmail.com</a></p>
+          <p class="muted">LinkedIn: <a href="https://www.linkedin.com/in/isaias-peres-91baa9308/">Isaías Peres</a></p>
+          <p class="muted">GitHub: <a href="https://github.com/isaipers">Isaipers</a></p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p class="muted">© Isaías — Portfólio</p>
+    </footer>
+  </div>
+</body>
+</html>
